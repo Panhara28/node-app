@@ -9,4 +9,4 @@ services:
       - NODE_ENV=production
     command: node index.js+
     env_file:
-      - ./.env
+      - ./config/.env.prod

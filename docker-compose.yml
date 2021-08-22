@@ -10,4 +10,4 @@ services:
     environment:
       - PORT=3000
     env_file:
-      - ./.env
+      - ./config/.env.prod
