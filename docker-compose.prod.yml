@@ -7,6 +7,6 @@ services:
         NODE_ENV: production
     environment:
       - NODE_ENV=production
-    command: node index.js+
+    command: node index.js
     env_file:
       - ./config/.env.prod
